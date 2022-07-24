@@ -1,0 +1,32 @@
+database:
+  dsn: postgres://user:password@host:5432/dbname
+  type: postgresql
+
+diagram:
+  addColumnComment: true
+  appendColumnType: true
+  changePlacementDirection: true
+  childOffsetFix: true
+  childPriorityFix: true
+  groupTableWithComment: true
+  columnCenter: 1000
+  columnMaxHeight: 1600
+  commentWidth: 200
+  constraintColor: 999999
+  constraintOpacity: 90
+  constraintWidth: 2
+  foreignKeyColor: FF99FF
+  layers: true
+  parentPriorityFix: true
+  prependSchemaName: true
+  primaryKeyColor: FFCC99
+  tableWidth: 250
+  uniqueColor: E6FFCC
+
+structure:
+  schema: schema_name
+  table: .*
+
+descriptions:
+  # place for descriptions
+  schema_name.table_name.column_name: description for column
